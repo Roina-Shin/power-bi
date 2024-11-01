@@ -74,3 +74,17 @@ sumx(
 
 
 ![total-revenue-calc](/pictures/total-revenue-calc.png "total revenue calc")
+
+
+- Create a new measure named Total Cost that muliplies the order quantities in the Sales Data table by the product cost in the Product Lookup table, then calculates the sum.
+
+
+```
+Total Cost = 
+sumx('Sales Data',
+'Sales Data'[OrderQuantity] * 
+related('Product Lookup'[ProductCost])
+)
+```
+
+
