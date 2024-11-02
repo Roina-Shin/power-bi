@@ -29,5 +29,5 @@ COUNTROWS(
 )
 ```
 
-![DISTINCT-and-VALUES](/DAX_pictures/DISTINCT_and_VALUES.PNG "DISTINCT and Values")
+![DISTINCT-and-VALUES](/DAX_pictures(2)/DISTINCT_and_VALUES.PNG "DISTINCT and Values")
 
